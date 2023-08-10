@@ -1,0 +1,41 @@
+@import url('../node_modules/materialize-css/dist/css/materialize.min.css');
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #fafafa inset !important;
+}
+
+.auth-btn {
+  margin-right: 1rem;
+  border-radius: 0.7rem;
+  box-shadow: none;
+  transition: 0.3s ease;
+}
+
+.auth-btn:hover {
+  box-shadow: none;
+  transform: scale(1.1);
+}
+
+.nav {
+  padding: 0 2rem;
+}
+
+.create {
+  margin-top: 3rem;
+}
+
+.loader {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+th,
+td {
+  padding: 1rem 1.5rem;
+  max-width: 350px;
+  word-wrap: break-word;
+}
