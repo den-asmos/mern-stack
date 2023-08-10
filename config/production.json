@@ -1,0 +1,6 @@
+{
+  "port": 7000,
+  "mongoUrl": "mongodb+srv://eva:FUI6709ncw@cluster0.gmmawo2.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "eva adaleski mern",
+  "baseUrl": "http://localhost:7000"
+}
